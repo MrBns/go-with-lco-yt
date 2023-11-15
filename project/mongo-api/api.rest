@@ -1,0 +1,35 @@
+GET https://hnazmul.me
+
+###
+
+POST  http://localhost:8080/api/movie
+Content-Type: application/json
+
+{
+    "movie":"Testing Movie 1",
+    "watched":false
+}
+
+
+
+###
+
+GET  http://localhost:8080/api/movies
+Content-Type: application/json
+
+###
+
+PUT  http://localhost:8080/api/movie/6554e92e717a1fd2bacbbd07
+Content-Type: application/json
+
+
+###
+
+DELETE  http://localhost:8080/api/movie/6554e92e717a1fd2bacbbd07
+Content-Type: application/json
+
+
+###
+
+DELETE  http://localhost:8080/api/delete-all-movies
+Content-Type:  application/json

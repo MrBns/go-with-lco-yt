@@ -1,0 +1,17 @@
+{
+    "discord.enabled": true,
+    "cSpell.words": [
+        "bson"
+    ],
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "**/vendor": true,
+        "vendor": true
+    },
+    "explorerExclude.backup": {}
+}
